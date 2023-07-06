@@ -1,7 +1,7 @@
 import admin from '../config/index'
 import User from '../models/UserModel'
 import Profile from '../models/profileModel'
-
+//hello
 const firebaseAuth = async (req, res, next) => {
     try {
         const firebaseUser = await admin.auth().verifyIdToken(req.headers.token)
